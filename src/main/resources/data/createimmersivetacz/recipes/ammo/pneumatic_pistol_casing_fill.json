@@ -1,0 +1,53 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createimmersivetacz:pneumatic_pistol_casing"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "tacz:ammo",
+      "count": 1,
+      "nbt": "{AmmoId:\"create_armorer:gas_pistol_ammo\"}"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createimmersivetacz:pneumatic_pistol_casing"
+        },
+        {
+          "item": "createimmersivetacz:primer"
+        }
+      ],
+      "results": [
+        {
+          "item": "createimmersivetacz:pneumatic_pistol_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "createimmersivetacz:pneumatic_pistol_casing"
+        },
+        {
+          "amount": 25,
+          "fluid": "createimmersivetacz:gunpowder_fluid",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "createimmersivetacz:pneumatic_pistol_casing"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "createimmersivetacz:pneumatic_pistol_casing"
+  }
+}

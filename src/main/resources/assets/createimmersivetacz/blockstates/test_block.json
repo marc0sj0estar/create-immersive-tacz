@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "createimmersivetacz:block/test_block"
+    }
+  }
+}

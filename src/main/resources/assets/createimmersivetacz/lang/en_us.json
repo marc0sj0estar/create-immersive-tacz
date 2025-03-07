@@ -1,0 +1,23 @@
+{
+
+  "item.createimmersivetacz.gunbarrel": "Gun Barrel",
+  "item.createimmersivetacz.gun_trigger": "Trigger Mechanism",
+  "fluid_type.createimmersivetacz.gunpowder_fluid": "Gunpowder Fluid",
+
+  "item.createimmersivetacz.slap_casing": "SLAP Casing",
+  "item.createimmersivetacz.rimmed_blunt_ap_casing": "Rimmed Blunt AP Casing",
+  "item.createimmersivetacz.pneumatic_pistol_casing": "Pneumatic Pistol Casing",
+  "item.createimmersivetacz.twelve_gauge_shell": "12 Gauge Shell",
+  "item.createimmersivetacz.gunpowder_bucket": "Gunpowder Bucket",
+  "item.createimmersivetacz.nitropowder_bucket": "Nitropowder Bucket",
+  "item.createimmersivetacz.primer": "Primer",
+  "item.createimmersivetacz.firing_mechanism": "Firing Mechanism",
+
+
+  "item.createimmersivetacz.incomplete_twelve_gauge_shell": "12 Gauge Shell",
+
+  "block.createimmersivetacz.test_block": "Test Block",
+
+  "creativetab.create_immersive_tacz_tab": "Create: Immersive TaCZ"
+
+}
