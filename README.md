@@ -8,7 +8,7 @@
 2.  Install [**Create**](https://www.curseforge.com/minecraft/mc-mods/create) version 0.5.1.f or above.
 3.  Install [**Timeless and Classics Zero**](https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-zero).
 4.  Start Minecarft so Timeless and Classics Zero can create its directories.
-5.  Install [**Create Amorer**](https://www.curseforge.com/minecraft/customization/tacz-create-armorer-koei) and extract to a folder in .minecraft/tacz
+5.  Install [**Create Amorer**](https://www.curseforge.com/minecraft/customization/tacz-create-armorer-koei) and place in .minecraft/tacz
 6.  Install this mod into the mod folder.
 
  
