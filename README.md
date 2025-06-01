@@ -4,11 +4,11 @@
 
 (If you're using a version of tacz older than 1.14, some folders are in .minecraft/config/tacz)
 
-1.  Install the latest version of **[Forge](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.20.1.html)**
-2.  Install **[Create](https://www.curseforge.com/minecraft/mc-mods/create)** version 0.5.1.f or above.
-3.  Install **[Timeless and Classics Zero](https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-zero).**
+1.  Install the latest version of [**Forge**](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.20.1.html)
+2.  Install [**Create**](https://www.curseforge.com/minecraft/mc-mods/create) version 0.5.1.f or above.
+3.  Install [**Timeless and Classics Zero**](https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-zero).
 4.  Start Minecarft so Timeless and Classics Zero can create its directories.
-5.  Install [**Create Amorer**](https://www.curseforge.com/minecraft/customization/tacz-create-armorer-koei) and place the .zip file in .minecraft/tacz
+5.  Install [**Create Amorer**](https://www.curseforge.com/minecraft/customization/tacz-create-armorer-koei) and extract to a folder in .minecraft/tacz
 6.  Install this mod into the mod folder.
 
  
@@ -48,7 +48,7 @@ New items were added to serve as intermediary steps when crafting the weapons.
 
 ## **Trigger Mechanism**
 
-## ![](https://media.forgecdn.net/attachments/description/1152431/description_103ef41c-451e-4cf0-ad75-f0c28994507b.png)
+![](https://media.forgecdn.net/attachments/description/1152431/description_103ef41c-451e-4cf0-ad75-f0c28994507b.png)
 
 ## **Firing mechanism**
 
@@ -96,12 +96,13 @@ Since the TaCZ weapons are really powerfull compared to your usual minecraft and
 
 A gun isn't complete without a few **attachemnts**, so more recipes have been added to make them.
 
-![](https://media.forgecdn.net/attachments/description/1152431/description_8f7c5f15-6668-43d2-9d2d-af53cc5b0c14.png)  
+![](https://media.forgecdn.net/attachments/description/1152431/description_8f7c5f15-6668-43d2-9d2d-af53cc5b0c14.png) 
+
 ![](https://media.forgecdn.net/attachments/description/1152431/description_05f62b62-2cbf-4a2f-9c06-ed5fcd8a3c43.png)
 
 ![](https://media.forgecdn.net/attachments/description/1152431/description_deaa98a9-bd11-4140-911f-2c723c8579c0.png)
 
- ![](https://media.forgecdn.net/attachments/description/1152431/description_9461e2d1-523b-4aa3-b466-c091d509b820.png)  
+![](https://media.forgecdn.net/attachments/description/1152431/description_9461e2d1-523b-4aa3-b466-c091d509b820.png)  
 
 ![](https://media.forgecdn.net/attachments/description/1152431/description_518867cc-7d22-43f7-b162-417928b8a48a.png)
 
@@ -109,9 +110,11 @@ A gun isn't complete without a few **attachemnts**, so more recipes have been ad
 
 ![](https://media.forgecdn.net/attachments/description/1152431/description_032ac40d-838f-41ab-ba46-dbf2a82321c3.png)
 
- ![](https://media.forgecdn.net/attachments/description/1152431/description_b9f7632e-237f-46ee-825f-067298ed5471.png)
+![](https://media.forgecdn.net/attachments/description/1152431/description_b9f7632e-237f-46ee-825f-067298ed5471.png)
 
-![](https://media.forgecdn.net/attachments/description/1152431/description_3836dacd-6c1c-4c6c-9303-6ebede5a360a.png)  ![](https://media.forgecdn.net/attachments/description/1152431/description_8b60fdca-76c0-4d80-b3bf-527a5b8743bd.png)
+![](https://media.forgecdn.net/attachments/description/1152431/description_3836dacd-6c1c-4c6c-9303-6ebede5a360a.png)
+
+![](https://media.forgecdn.net/attachments/description/1152431/description_8b60fdca-76c0-4d80-b3bf-527a5b8743bd.png)
 
 # **New Ammo Casings!**
 
@@ -125,7 +128,8 @@ The **ammo casings** are made by sawing brass plates. You can put a filter with 
 
 **Gunpowder** can now be stored in tanks as fluids and used in the different recipes. If you have [Create Big Cannons](https://www.curseforge.com/minecraft/mc-mods/create-big-cannons) installed, you can also store **Nitropowder**, which is more efficient than gunpowder at making primers.
 
-![](https://media.forgecdn.net/attachments/description/1152431/description_bf3d69cb-12f3-4976-a02d-aae6558ac1af.png)  ![](https://media.forgecdn.net/attachments/description/1152431/description_09c7285c-e7c8-45de-8bfe-8741c552580f.png)
+![](https://media.forgecdn.net/attachments/description/1152431/description_bf3d69cb-12f3-4976-a02d-aae6558ac1af.png)
+![](https://media.forgecdn.net/attachments/description/1152431/description_09c7285c-e7c8-45de-8bfe-8741c552580f.png)
 
  
 
@@ -151,11 +155,11 @@ Apart from that, the process requires a large amount of andesite alloy, since it
 
 # FAQ
 
-Q: There's an error when i launch the game.
+Q: There's an error when I launch the game.
 
 A: Update forge. For some reason that fixes it.
 
-Q: When i use the saw it crafts something else.
+Q: When I use the saw it crafts something else.
 
 A: That means there's another mod with the same recipe. Use a filter in the saw so it only outputs what you need.
 
