@@ -1,0 +1,16 @@
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    "DDDDD",
+    "    D"
+  ],
+  "result": {
+    "item": "tacz:attachment",
+    "nbt": "{AttachmentId:\"create_armorer:muzzle_refit_energy_blade\"}"
+  }
+}

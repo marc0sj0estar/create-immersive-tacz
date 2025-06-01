@@ -3,6 +3,7 @@
   "item.createimmersivetacz.gunbarrel": "Gun Barrel",
   "item.createimmersivetacz.gun_trigger": "Trigger Mechanism",
   "fluid_type.createimmersivetacz.gunpowder_fluid": "Gunpowder Fluid",
+  "fluid_type.createimmersivetacz.nitropowder_fluid": "Nitropowder Fluid",
 
   "item.createimmersivetacz.slap_casing": "SLAP Casing",
   "item.createimmersivetacz.rimmed_blunt_ap_casing": "Rimmed Blunt AP Casing",
