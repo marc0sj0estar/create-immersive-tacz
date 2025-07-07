@@ -24,7 +24,8 @@ public class ModItems {
     public static final RegistryObject<Item> PNEUMATIC_PISTOL_CASING = ITEMS.register("pneumatic_pistol_casing", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> TWELVE_GAUGE_SHELL = ITEMS.register("twelve_gauge_shell", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> FIRING_MECHANISM = ITEMS.register("firing_mechanism", () -> new Item(new Item.Properties()));
-
+    public static final RegistryObject<Item> GERNADE_CASING = ITEMS.register("gernade_casing", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> HE_CASING = ITEMS.register("40mmhe_casing", () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> GUNPOWDER_BUCKET = ITEMS.register("gunpowder_bucket",
             () -> new BucketItem(ModFluids.SOURCE_GUNPOWDER,

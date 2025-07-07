@@ -3,10 +3,13 @@
   "item.createimmersivetacz.gunbarrel": "Cañon de Arma de Fuego",
   "item.createimmersivetacz.gun_trigger": "Mecanismo de Gatillo",
   "fluid_type.createimmersivetacz.gunpowder_fluid": "Pólvora Líquida",
+  "fluid_type.createimmersivetacz.nitropowder_fluid": "Nitropólvora Líquida",
 
   "item.createimmersivetacz.slap_casing": "Casquillo SLAP",
   "item.createimmersivetacz.rimmed_blunt_ap_casing": "Casquillo Rimmed Blunt AP",
   "item.createimmersivetacz.pneumatic_pistol_casing": "Casiquillo Pneumatic Pistol",
+  "item.createimmersivetacz.gernade_casing": "Casquillo de Granada Pneumática",
+  "item.createimmersivetacz.40mmhe_casing": "Casquillo 40mm HE",
   "item.createimmersivetacz.twelve_gauge_shell": "Cartucho Vacio de calibre 12",
   "item.createimmersivetacz.gunpowder_bucket": "Cubo de pólvora",
   "item.createimmersivetacz.nitropowder_bucket": "Cubo de Polvo de Nitro",

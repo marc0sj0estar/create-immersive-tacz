@@ -1,0 +1,18 @@
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "F": {
+      "item": "create:fluid_tank"
+    },
+    "B": {
+      "item": "createimmersivetacz:gunbarrel"
+    }
+  },
+  "pattern": [
+    "BFF"
+  ],
+  "result": {
+    "item": "tacz:attachment",
+    "nbt": "{AttachmentId:\"create_armorer:muzzle_refit_ap_grenade\"}"
+  }
+}

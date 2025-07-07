@@ -13,7 +13,7 @@ public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CreateImmersiveTacz.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> MOD_TAB = CREATIVE_MODE_TABS.register("create_immersive_tacz_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.GUN_BARREL.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.GUN_TRIGGER.get()))
                     .title(Component.translatable("creativetab.create_immersive_tacz_tab"))
                     .displayItems((ItemDisplayParameters, output) ->
                     {
@@ -23,6 +23,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SLAP_CASING.get());
                         output.accept(ModItems.PNEUMATIC_PISTOL_CASING.get());
                         output.accept(ModItems.RIMMED_BLUNT_AP_CASING.get());
+                        output.accept(ModItems.GERNADE_CASING.get());
+                        output.accept(ModItems.HE_CASING.get());
                         output.accept(ModItems.TWELVE_GAUGE_SHELL.get());
                         output.accept(ModItems.PRIMER.get());
                         output.accept(ModItems.FIRING_MECHANISM.get());

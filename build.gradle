@@ -157,14 +157,9 @@ dependencies {
         implementation fg.deobf("com.jozufozu.flywheel:flywheel-forge-${flywheel_minecraft_version}:${flywheel_version}")
         implementation fg.deobf("com.tterrag.registrate:Registrate:${registrate_version}")
         implementation(fg.deobf("mezz.jei:jei-${minecraft_version}-forge:${jei_version}"))
-
     }
     dependencies {
-        // You can see the https://www.cursemaven.com/
-        // Choose one of the following three
-
-        // If you want to use version tacz-1.20.1-1.0.2-release
-        implementation fg.deobf('curse.maven:timeless-and-classics-zero-1028108:5529117-sources-5529578')
+        implementation fg.deobf("curse.maven:timeless-and-classics-zero-1028108:6654541")
     }
 
 

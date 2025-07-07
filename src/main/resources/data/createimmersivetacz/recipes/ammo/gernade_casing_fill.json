@@ -1,0 +1,53 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createimmersivetacz:gernade_casing"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "tacz:ammo",
+      "count": 1,
+      "nbt": "{AmmoId:\"create_armorer:gernade\"}"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createimmersivetacz:gernade_casing"
+        },
+        {
+          "item": "createimmersivetacz:primer"
+        }
+      ],
+      "results": [
+        {
+          "item": "createimmersivetacz:gernade_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "createimmersivetacz:gernade_casing"
+        },
+        {
+          "amount": 50,
+          "fluid": "createimmersivetacz:gunpowder_fluid",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "createimmersivetacz:gernade_casing"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "createimmersivetacz:gernade_casing"
+  }
+}
