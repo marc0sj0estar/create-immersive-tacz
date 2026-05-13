@@ -1,0 +1,16 @@
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "II",
+    " I"
+  ],
+  "result": {
+    "item": "tacz:attachment",
+    "nbt": "{AttachmentId:\"create_armorer:muzzle_refit_iron_spike\"}"
+  }
+}

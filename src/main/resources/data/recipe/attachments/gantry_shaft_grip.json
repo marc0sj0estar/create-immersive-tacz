@@ -1,0 +1,16 @@
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "G": {
+      "item": "create:gantry_shaft"
+    }
+  },
+  "pattern": [
+    "G",
+    "G"
+  ],
+  "result": {
+    "item": "tacz:attachment",
+    "nbt": "{AttachmentId:\"create_armorer:grip_gantry_shaft\"}"
+  }
+}

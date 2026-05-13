@@ -1,0 +1,16 @@
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "F": {
+      "item": "create:fluid_pipe"
+    }
+  },
+  "pattern": [
+    "F",
+    "F"
+  ],
+  "result": {
+    "item": "tacz:attachment",
+    "nbt": "{AttachmentId:\"create_armorer:grip_pipe\"}"
+  }
+}

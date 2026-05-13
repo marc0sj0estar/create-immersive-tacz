@@ -1,0 +1,53 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createimmersivetacz:twelve_gauge_shell"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "tacz:ammo",
+      "count": 1,
+      "nbt": "{AmmoId:\"tacz:12g\"}"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createimmersivetacz:twelve_gauge_shell"
+        },
+        {
+          "item": "createimmersivetacz:primer"
+        }
+      ],
+      "results": [
+        {
+          "item": "createimmersivetacz:twelve_gauge_shell"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "createimmersivetacz:twelve_gauge_shell"
+        },
+        {
+          "amount": 25,
+          "fluid": "createimmersivetacz:gunpowder_fluid",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "createimmersivetacz:twelve_gauge_shell"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "createimmersivetacz:twelve_gauge_shell"
+  }
+}

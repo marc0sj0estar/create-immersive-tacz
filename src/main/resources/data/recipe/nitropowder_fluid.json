@@ -1,0 +1,14 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "createbigcannons:nitropowder"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "createimmersivetacz:nitropowder_fluid",
+      "amount": 50
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "G": {
+      "item": "minecraft:glass_pane"
+    }
+  },
+  "pattern": [
+    "BGGB"
+  ],
+  "result": {
+    "item": "tacz:attachment",
+    "nbt": "{AttachmentId:\"create_armorer:scope_telephoto\"}"
+  }
+}

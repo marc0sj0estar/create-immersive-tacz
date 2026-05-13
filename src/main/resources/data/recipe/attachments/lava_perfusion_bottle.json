@@ -1,0 +1,18 @@
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "L": {
+      "item": "minecraft:lava_bucket"
+    },
+    "B": {
+      "item": "create:brass_ingot"
+    }
+  },
+  "pattern": [
+    "BLB"
+  ],
+  "result": {
+    "item": "tacz:attachment",
+    "nbt": "{AttachmentId:\"create_armorer:muzzle_refit_lava_perfusion_bottle\"}"
+  }
+}

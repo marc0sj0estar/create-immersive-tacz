@@ -1,0 +1,15 @@
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "B": {
+      "item": "create:brass_ingot"
+    }
+  },
+  "pattern": [
+    "BB"
+  ],
+  "result": {
+    "item": "tacz:attachment",
+    "nbt": "{AttachmentId:\"create_armorer:muzzle_refit_brass_retractor\"}"
+  }
+}

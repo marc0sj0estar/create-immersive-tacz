@@ -1,0 +1,20 @@
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    "B B",
+    "BDB",
+    "BBB"
+  ],
+  "result": {
+    "item": "tacz:attachment",
+    "nbt": "{AttachmentId:\"create_armorer:extended_mag_ca_2\"}"
+  }
+}

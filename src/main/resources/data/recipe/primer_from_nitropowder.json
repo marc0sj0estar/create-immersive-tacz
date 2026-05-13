@@ -1,0 +1,17 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create:andesite_alloy"
+    },
+    {
+      "fluid": "createimmersivetacz:nitropowder_fluid",
+      "amount": 25
+    }
+  ],
+  "results": [
+    {
+      "item": "createimmersivetacz:primer"
+    }
+  ]
+}

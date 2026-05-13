@@ -1,0 +1,21 @@
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "L": {
+      "item": "minecraft:lever"
+    }
+  },
+  "pattern": [
+    "BPB",
+    " L "
+  ],
+  "result": {
+    "item": "createimmersivetacz:gun_trigger"
+  }
+}

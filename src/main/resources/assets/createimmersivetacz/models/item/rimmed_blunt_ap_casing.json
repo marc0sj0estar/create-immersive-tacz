@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "createimmersivetacz:item/rimmed_blunt_ap_casing"
+  }
+}

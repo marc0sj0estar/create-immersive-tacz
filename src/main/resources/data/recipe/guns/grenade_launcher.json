@@ -1,0 +1,28 @@
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "B": {
+      "item": "createimmersivetacz:gunbarrel"
+    },
+    "C": {
+      "item": "create:cogwheel"
+    },
+    "F": {
+      "item": "createimmersivetacz:firing_mechanism"
+    },
+    "T": {
+      "item": "createimmersivetacz:gun_trigger"
+    },
+    "W": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "BBBCFC",
+    "   WTW"
+  ],
+  "result": {
+    "item": "tacz:modern_kinetic_gun",
+    "nbt": "{GunId:\"create_armorer:gl_revolver_devastator\", GunFireMode:\"SEMI\"}"
+  }
+}

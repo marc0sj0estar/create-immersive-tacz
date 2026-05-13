@@ -1,0 +1,15 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "create:brass_sheet"
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "item": "createimmersivetacz:40mmhe_casing",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "create:mechanical_crafting",
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "B": {
+      "item": "create:brass_ingot"
+    }
+  },
+  "pattern": [
+    "DDBDD",
+    "  S  ",
+    "  S  ",
+    "  B  "
+  ],
+  "result": {
+    "item": "tacz:modern_kinetic_gun",
+    "nbt": "{GunId:\"create_armorer:special_melee_atomic\", GunFireMode:\"SEMI\"}"
+  }
+}

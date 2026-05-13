@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "createimmersivetacz:item/twelve_gauge_shell"
+  }
+}
