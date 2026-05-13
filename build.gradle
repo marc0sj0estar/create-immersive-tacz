@@ -15,12 +15,6 @@ repositories {
 	maven {
 		url = "https://maven.terraformersmc.com/releases/"
 	}
-	maven {
-		url = "https://maven.blamejared.com"
-	}
-	maven {
-		url = "https://cursemaven.com"
-	}
 }
 
 loom {
@@ -44,10 +38,6 @@ dependencies {
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
 
-	modImplementation "mezz.jei:jei-1.21.1-fabric:19.21.0.247"
-	modImplementation "curse.maven:forge-config-api-port-547434:7213608"
-	modImplementation "curse.maven:cloth-config-348521:5729125"
-	modImplementation "curse.maven:tacz-refabricated-1334246:8058530"
 }
 
 processResources {
