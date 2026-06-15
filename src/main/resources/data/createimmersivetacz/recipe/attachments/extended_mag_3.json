@@ -1,0 +1,25 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "pattern": [
+    "B B",
+    "BNB",
+    "BBB"
+  ],
+  "result": {
+    "id": "tacz:attachment",
+    "components": {
+      "minecraft:custom_data": {
+        "AttachmentId": "create_armorer:extended_mag_ca_3"
+      }
+    }
+  }
+}

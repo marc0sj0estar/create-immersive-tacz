@@ -1,0 +1,40 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "B": {
+      "item": "createimmersivetacz:gun_barrel"
+    },
+    "O": {
+      "item": "create:brass_block"
+    },
+    "F": {
+      "item": "createimmersivetacz:firing_mechanism"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "C": {
+      "item": "create:flywheel"
+    },
+    "T": {
+      "item": "createimmersivetacz:gun_trigger"
+    },
+    "W": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "BOOFI",
+    " CTW "
+  ],
+  "result": {
+    "id": "tacz:modern_kinetic_gun",
+    "components": {
+      "minecraft:custom_data": {
+        "GunId": "create_armorer:mg_platemag_flywheel",
+        "GunFireMode": "AUTO"
+      }
+    }
+  }
+}}

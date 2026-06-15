@@ -1,0 +1,23 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "P": {
+      "item": "create:fluid_pipe"
+    },
+    "A": {
+      "item": "create:andesite_alloy"
+    }
+  },
+  "pattern": [
+    "PAA"
+  ],
+  "result": {
+    "id": "tacz:attachment",
+    "components": {
+      "minecraft:custom_data": {
+        "AttachmentId": "create_armorer:muzzle_refit_bigger_cylinder"
+      }
+    }
+  }
+}

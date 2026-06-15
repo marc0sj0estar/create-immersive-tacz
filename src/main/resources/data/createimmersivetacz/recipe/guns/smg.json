@@ -1,0 +1,37 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "B": {
+      "item": "createimmersivetacz:gun_barrel"
+    },
+    "P": {
+      "item": "create:brass_ingot"
+    },
+    "F": {
+      "item": "createimmersivetacz:firing_mechanism"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "T": {
+      "item": "createimmersivetacz:gun_trigger"
+    },
+    "W": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "BPFI",
+    " TW "
+  ],
+  "result": {
+    "id": "tacz:modern_kinetic_gun",
+    "components": {
+      "minecraft:custom_data": {
+        "GunId": "create_armorer:smg_auto_crank",
+        "GunFireMode": "AUTO"
+      }
+    }
+  }
+}

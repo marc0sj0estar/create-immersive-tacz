@@ -1,0 +1,57 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createimmersivetacz:pneumatic_pistol_casing"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "tacz:ammo",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data": {
+          "AmmoId": "create_armorer:gas_pistol_ammo"
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createimmersivetacz:pneumatic_pistol_casing"
+        },
+        {
+          "item": "createimmersivetacz:primer"
+        }
+      ],
+      "results": [
+        {
+          "id": "createimmersivetacz:pneumatic_pistol_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "createimmersivetacz:pneumatic_pistol_casing"
+        },
+        {
+          "fluid": "createimmersivetacz:gunpowder_fluid",
+          "type": "fluid_stack",
+          "amount": 25
+        }
+      ],
+      "results": [
+        {
+          "id": "createimmersivetacz:pneumatic_pistol_casing"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "createimmersivetacz:pneumatic_pistol_casing"
+  }
+}

@@ -1,25 +1,20 @@
 {
 
-  "item.createimmersivetacz.gunbarrel": "Cañon de Arma de Fuego",
-  "item.createimmersivetacz.gun_trigger": "Mecanismo de Gatillo",
-  "fluid_type.createimmersivetacz.gunpowder_fluid": "Pólvora Líquida",
-  "fluid_type.createimmersivetacz.nitropowder_fluid": "Nitropólvora Líquida",
+  "item.createimmersivetacz.gun_barrel": "Cañón de arma de fuego",
+  "item.createimmersivetacz.gun_trigger": "Mecanismo de gatillo",
+  "fluid_type.createimmersivetacz.gunpowder_fluid": "Pólvora líquida",
+  "fluid_type.createimmersivetacz.nitropowder_fluid": "Nitropólvora líquida",
 
   "item.createimmersivetacz.slap_casing": "Casquillo SLAP",
-  "item.createimmersivetacz.rimmed_blunt_ap_casing": "Casquillo Rimmed Blunt AP",
-  "item.createimmersivetacz.pneumatic_pistol_casing": "Casiquillo Pneumatic Pistol",
-  "item.createimmersivetacz.gernade_casing": "Casquillo de Granada Pneumática",
-  "item.createimmersivetacz.40mmhe_casing": "Casquillo 40mm HE",
-  "item.createimmersivetacz.twelve_gauge_shell": "Cartucho Vacio de calibre 12",
+  "item.createimmersivetacz.rimmed_blunt_ap_casing": "Casquillo de Rimmed Blunt AP",
+  "item.createimmersivetacz.pneumatic_pistol_casing": "Casquillo de pistola pneumatica",
+  "item.createimmersivetacz.grenade_casing": "Casquillo de granada pneumática",
+  "item.createimmersivetacz.40mmhe_casing": "Casquillo de 40mm HE",
+  "item.createimmersivetacz.twelve_gauge_shell": "Cartucho de calibre 12 vacío",
   "item.createimmersivetacz.gunpowder_bucket": "Cubo de pólvora",
-  "item.createimmersivetacz.nitropowder_bucket": "Cubo de Polvo de Nitro",
+  "item.createimmersivetacz.nitropowder_bucket": "Cubo de nitropólvora",
   "item.createimmersivetacz.primer": "Fulminante",
-  "item.createimmersivetacz.firing_mechanism": "Mecanismo de Disparo",
-
-
-  "item.createimmersivetacz.incomplete_twelve_gauge_shell": "12 Gauge Shell",
-
-  "block.createimmersivetacz.test_block": "Test Block",
+  "item.createimmersivetacz.firing_mechanism": "Mecanismo de disparo",
 
   "creativetab.create_immersive_tacz_tab": "Create: TaCZ Inmersivo"
 

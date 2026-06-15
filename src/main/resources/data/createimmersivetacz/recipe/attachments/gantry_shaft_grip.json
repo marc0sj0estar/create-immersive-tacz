@@ -1,0 +1,21 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "G": {
+      "item": "create:gantry_shaft"
+    }
+  },
+  "pattern": [
+    "G",
+    "G"
+  ],
+  "result": {
+    "id": "tacz:attachment",
+    "components": {
+      "minecraft:custom_data": {
+        "AttachmentId": "create_armorer:grip_gantry_shaft"
+      }
+    }
+  }
+}

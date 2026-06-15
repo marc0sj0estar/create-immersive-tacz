@@ -1,0 +1,24 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "I": {
+      "item": "create:andesite_alloy"
+    },
+    "S": {
+      "item": "create:shaft"
+    }
+  },
+  "pattern": [
+    "III",
+    " SS"
+  ],
+  "result": {
+    "id": "tacz:attachment",
+    "components": {
+      "minecraft:custom_data": {
+        "AttachmentId": "create_armorer:grip_shaft"
+      }
+    }
+  }
+}

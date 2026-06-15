@@ -1,6 +1,6 @@
 {
 
-  "item.createimmersivetacz.gunbarrel": "枪管",
+  "item.createimmersivetacz.gun_barrel": "枪管",
   "item.createimmersivetacz.gun_trigger": "扳机构件",
   "fluid_type.createimmersivetacz.gunpowder_fluid": "液态火药",
   "fluid_type.createimmersivetacz.nitropowder_fluid": "液态硝化火药",
@@ -8,18 +8,13 @@
   "item.createimmersivetacz.slap_casing": "次口径脱壳穿甲弹弹壳",
   "item.createimmersivetacz.rimmed_blunt_ap_casing": "凸缘钝头穿甲弹弹壳",
   "item.createimmersivetacz.pneumatic_pistol_casing": "气动手枪弹弹壳",
-  "item.createimmersivetacz.gernade_casing": "气动榴弹弹壳",
+  "item.createimmersivetacz.grenade_casing": "气动榴弹弹壳",
   "item.createimmersivetacz.40mmhe_casing": "40mm 高爆弹弹壳",
   "item.createimmersivetacz.twelve_gauge_shell": "12 号口径霰弹弹壳",
   "item.createimmersivetacz.gunpowder_bucket": "液态火药桶",
   "item.createimmersivetacz.nitropowder_bucket": "液态硝化火药桶",
   "item.createimmersivetacz.primer": "底火",
   "item.createimmersivetacz.firing_mechanism": "击发组件",
-
-
-  "item.createimmersivetacz.incomplete_twelve_gauge_shell": "12 号口径霰弹弹壳（半成品）",
-
-  "block.createimmersivetacz.test_block": "测试方块",
 
   "creativetab.create_immersive_tacz_tab": "机械动力：沉浸枪械"
 

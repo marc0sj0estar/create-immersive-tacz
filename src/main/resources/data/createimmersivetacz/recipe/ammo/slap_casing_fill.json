@@ -1,0 +1,57 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createimmersivetacz:slap_casing"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "tacz:ammo",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data": {
+          "AmmoId": "create_armorer:slap"
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createimmersivetacz:slap_casing"
+        },
+        {
+          "item": "createimmersivetacz:primer"
+        }
+      ],
+      "results": [
+        {
+          "id": "createimmersivetacz:slap_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "createimmersivetacz:slap_casing"
+        },
+        {
+          "fluid": "createimmersivetacz:gunpowder_fluid",
+          "type": "fluid_stack",
+          "amount": 25
+        }
+      ],
+      "results": [
+        {
+          "id": "createimmersivetacz:slap_casing"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "createimmersivetacz:slap_casing"
+  }
+}

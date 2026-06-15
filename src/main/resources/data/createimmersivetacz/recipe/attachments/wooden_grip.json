@@ -1,0 +1,22 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "W": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "W",
+    "W",
+    "W"
+  ],
+  "result": {
+    "id": "tacz:attachment",
+    "components": {
+      "minecraft:custom_data": {
+        "AttachmentId": "create_armorer:grip_wooden"
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createimmersivetacz:rimmed_blunt_ap_casing"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "tacz:ammo",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data": {
+          "AmmoId": "create_armorer:rbapb"
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createimmersivetacz:rimmed_blunt_ap_casing"
+        },
+        {
+          "item": "createimmersivetacz:primer"
+        }
+      ],
+      "results": [
+        {
+          "id": "createimmersivetacz:rimmed_blunt_ap_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "createimmersivetacz:rimmed_blunt_ap_casing"
+        },
+        {
+          "fluid": "createimmersivetacz:gunpowder_fluid",
+          "type": "fluid_stack",
+          "amount": 25
+        }
+      ],
+      "results": [
+        {
+          "id": "createimmersivetacz:rimmed_blunt_ap_casing"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "createimmersivetacz:rimmed_blunt_ap_casing"
+  }
+}

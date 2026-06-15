@@ -1,0 +1,57 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createimmersivetacz:grenade_casing"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "tacz:ammo",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data": {
+          "AmmoId": "create_armorer:gernade"
+        }
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createimmersivetacz:grenade_casing"
+        },
+        {
+          "item": "createimmersivetacz:primer"
+        }
+      ],
+      "results": [
+        {
+          "id": "createimmersivetacz:grenade_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "createimmersivetacz:grenade_casing"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 50,
+          "fluid": "createimmersivetacz:gunpowder_fluid"
+        }
+      ],
+      "results": [
+        {
+          "id": "createimmersivetacz:grenade_casing"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "createimmersivetacz:grenade_casing"
+  }
+}

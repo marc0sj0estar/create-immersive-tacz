@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "createbigcannons:nitropowder"
+    }
+  ],
+  "results": [
+    {
+      "type": "fluid_stack",
+      "id": "createimmersivetacz:nitropowder_fluid",
+      "amount": 50
+    }
+  ]
+}

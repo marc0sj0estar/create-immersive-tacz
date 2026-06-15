@@ -1,0 +1,16 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "key": {
+    "W": {
+      "item": "tacz:modern_kinetic_gun",
+      "nbt": "{GunId:\"create_armorer:special_melee_wrench\", GunFireMode:\"SEMI\"}"
+    }
+  },
+  "pattern": [
+    "W"
+  ],
+  "result": {
+    "id": "create:wrench"
+  }
+}
