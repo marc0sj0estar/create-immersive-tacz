@@ -18,7 +18,7 @@ import net.neoforged.neoforge.common.ModConfigSpec;
 public class Config {
     private static final ModConfigSpec.Builder BUILDER = new ModConfigSpec.Builder();
 
-    public static final ModConfigSpec.BooleanValue HIDE_NOTIFICATIONS = BUILDER.comment(Component.translatable("config.createimmersivetacz.hide_notification").toString()).define("hide_notifications", false);
+    public static final ModConfigSpec.BooleanValue HIDE_NOTIFICATIONS = BUILDER.translation("config.createimmersivetacz.hide_notification").define("hide_notification", false);
 
     static final ModConfigSpec SPEC = BUILDER.build();
 

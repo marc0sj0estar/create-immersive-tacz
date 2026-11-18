@@ -16,6 +16,13 @@
   "item.createimmersivetacz.primer": "Fulminante",
   "item.createimmersivetacz.firing_mechanism": "Mecanismo de disparo",
 
-  "creativetab.create_immersive_tacz_tab": "Create: TaCZ Inmersivo"
+  "creativetab.create_immersive_tacz_tab": "Create: TaCZ Inmersivo",
+
+  "warning.createimmersivetacz.create_armorer_not_installed": "Es necesario tener instalado Create Armorer para que funcione Create Immersive TaCZ correctamente. Colócalo en la carpeta .minecraft/tacz. Puedes desactivar este aviso en la configuración o haciendo click ",
+  "warning.createimmersivetacz.create_armorer_not_installed_2": "aquí",
+  "warning.createimmersivetacz.create_armorer_not_installed_disabled": "La notificación se ha desactivado. Puedes volver a activarla en la configuración.",
+
+  "config.createimmersivetacz.hide_notification": "Desactivar aviso",
+  "config.createimmersivetacz.hide_notification.tooltip": "Si se activa, se eliminará el aviso de que Create Armorer no está instalado."
 
 }

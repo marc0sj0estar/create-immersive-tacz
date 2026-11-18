@@ -16,6 +16,13 @@
   "item.createimmersivetacz.primer": "底火",
   "item.createimmersivetacz.firing_mechanism": "击发组件",
 
-  "creativetab.create_immersive_tacz_tab": "机械动力：沉浸枪械"
+  "creativetab.create_immersive_tacz_tab": "机械动力：沉浸枪械",
+
+  "warning.createimmersivetacz.create_armorer_not_installed": "未安装 Create Armorer，而 Create Immersive TaCZ 需要此模组。请将其放入 .minecraft/tacz 文件夹中。要关闭此警告，请在配置文件中修改设置或点击 ",
+  "warning.createimmersivetacz.create_armorer_not_installed_2": "这里",
+  "warning.createimmersivetacz.create_armorer_not_installed_disabled": "Create Armorer 警告已禁用。你可以在配置文件中重新启用它。",
+
+  "config.createimmersivetacz.hide_notification": "隐藏警告",
+  "config.createimmersivetacz.hide_notification.tooltip": "设置为 false 时，如果未安装 Create Armorer，将向玩家显示警告。"
 
 }

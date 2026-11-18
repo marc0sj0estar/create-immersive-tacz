@@ -21,6 +21,8 @@
   "warning.createimmersivetacz.create_armorer_not_installed": "Create Armorer is not installed and is required by Create Immersive TaCZ. Place it in the .minecraft/tacz folder. To turn off this warning  change it in the config or click ",
   "warning.createimmersivetacz.create_armorer_not_installed_2": "here",
   "warning.createimmersivetacz.create_armorer_not_installed_disabled": "Create Armorer warning disabled. You can re-enable it in the config.",
-  "config.createimmersivetacz.hide_notification": "When set to false, will warn player if Create Armorer is not installed."
+
+  "config.createimmersivetacz.hide_notification": "Disable warning",
+  "config.createimmersivetacz.hide_notification.tooltip": "When set to false, will warn player if Create Armorer is not installed."
 
 }
