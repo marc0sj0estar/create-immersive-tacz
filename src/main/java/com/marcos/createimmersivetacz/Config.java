@@ -5,6 +5,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -16,6 +17,8 @@ import net.neoforged.neoforge.common.ModConfigSpec;
 // Demonstrates how to use Neo's config APIs
 public class Config {
     private static final ModConfigSpec.Builder BUILDER = new ModConfigSpec.Builder();
+
+    public static final ModConfigSpec.BooleanValue HIDE_NOTIFICATIONS = BUILDER.comment(Component.translatable("config.createimmersivetacz.hide_notification").toString()).define("hide_notifications", false);
 
     static final ModConfigSpec SPEC = BUILDER.build();
 

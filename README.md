@@ -1,199 +1,141 @@
-* * *
+***
 
-Installation guide (Very important)
-===================================
+# Mod Requirements (IMPORTANT)
 
-(If you're using a version of tacz older than 1.14, some folders are in .minecraft/config/tacz)
+#### **This mod requires the following parts:**
 
-1.  Install the latest version of **[Forge](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.20.1.html)**
-2.  Install **[Create](https://modrinth.com/mod/create)** version 0.5.1.f or above.
-3.  Install **[Timeless and Classics Zero](https://modrinth.com/mod/timeless-and-classics-zero).**
-4.  Start Minecraft so Timeless and Classics Zero can create its directories.
-5.  Install [**Create Amorer**](https://www.curseforge.com/minecraft/customization/tacz-create-armorer-koei) and place the .zip file in .minecraft/tacz.
-6.  Install this mod into the mod folder.
+*   [Immersive Armorer](https://www.curseforge.com/minecraft/customization/tacz-immersive-armorer-koei) (tacz pack)
+*   [Create](https://www.curseforge.com/minecraft/mc-mods/create)
+*   [Immersive Engineering](https://www.curseforge.com/minecraft/mc-mods/immersive-engineering)
+*   [Timeless and Classics Zero](https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-zero)
+*   [Create Immersive Tacz Integration](https://www.curseforge.com/minecraft/mc-mods/create-immersive-tacz-integration)
+*   [Create Armorer](https://www.curseforge.com/minecraft/customization/tacz-create-armorer-koei) (optional tacz pack if you want the Create Weapons)
 
- 
+If you don't know how to install a tacz weapon pack check the installation tutorial in [Create Immersive Tacz Integration](https://www.curseforge.com/minecraft/mc-mods/create-immersive-tacz-integration).
 
-**Optional steps to remove the TaCZ recipes of the gun bench (recommended)**
+***
 
-1.  Change the  DefaultPackDebug option of minecraft/tacz/tacz-pre.toml to true
-2.  Go to .minecraft/tacz and open the create armorer zip you downloaded (you can use winrar). Delete the recipes folder in data/create_armorer/recipes
-
-**Extra step to delete all the vanilla workbench recipes**
-
-3. Go to .minecraft/tacz/tacz_default_gun/data/tacz and delete the recipes folder
- 
-
-* * *
-
-**Looking for more gun pack integrations?** Check out this add-on for Immersive Armorer!
-
-[![](https://media.forgecdn.net/attachments/description/1152431/description_9ae2fdde-5b4b-4537-9c95-a5094c0f5fda.png)](https://modrinth.com/mod/create-immersive-armorer-integration)
  
 
 #### ![](https://media.forgecdn.net/attachments/description/978675/description_0c80647f-43e3-48ee-bce9-f81d45f49717.png)
 
  
 
-This mod adds ways to **craft and automate** the guns, ammo and attachments from Create Amorer into an immersive Create experience.
-
-Now the recipes of the guns are more realistic and the ammo can be manufactured in mass!
-
-Only the Create Armorer Weapons are meant to be used, since they're the most fit for a create playthrough.
-
-# **New Gun Parts!**
-
-New items were added to serve as intermediary steps when crafting the weapons.
-
-## **Gun Barrel**
-
-![](https://media.forgecdn.net/attachments/description/1152431/description_36f3266e-045b-427f-b979-27789e517598.png)
-
-## **Trigger Mechanism**
-
-## ![](https://media.forgecdn.net/attachments/description/1152431/description_103ef41c-451e-4cf0-ad75-f0c28994507b.png)
-
-## **Firing mechanism**
-
-![](https://media.forgecdn.net/attachments/description/1152431/description_ff84806d-929a-43b5-9405-84dcb0881e25.png)
-
- 
+This mod adds new parts and recipes to the Create Immersive Tacz Integration mod to include Immersive Armory recipes.
 
 # **New Gun Recipes!**
 
 Since the TaCZ weapons are really powerfull compared to your usual minecraft and create weaponry, the recipes have been balanced using the new gun parts. Now you will need to have a components like precision mechanisms and mechanical crafters to craft them.
 
-## **New "Torque" Revolver Recipe**
+## **New "Solenoid" Rail Pistol Recipe**
 
-![](https://media.forgecdn.net/attachments/description/1152431/description_d9e08f66-0a87-4cfe-81de-0ff451cf3d78.png)
+![](https://media.forgecdn.net/attachments/description/1312134/description_21b1cea6-8b0f-4410-b0e9-eb3038912252.png)
 
-## **New "Stress" Auto Pistol recipe**
+## **New "Excitation" Auto Rail Pistol Recipe**
 
-## ![](https://media.forgecdn.net/attachments/description/1152431/description_9131c5d3-5e0a-4eff-bf3e-d089a10aa2fd.png)
+**![](https://media.forgecdn.net/attachments/description/1312134/description_1bc52c00-3099-4d0d-85a8-a58427049268.png)**
 
-## **New "Clockwork" Sniper recipe**
+## **New "Brake" Revolver Recipe**
 
-![](https://media.forgecdn.net/attachments/description/1152431/description_83a42696-94d5-4991-a3bf-2bc52727dd26.png)
+**![](https://media.forgecdn.net/attachments/description/1312134/description_11a87dbe-1008-4a70-820e-b023b8516e0c.png)**
 
-## **New "Crane" Assault Rifle recipe**
+## **New "Legend" Pistol Recipe**
 
-## ![](https://media.forgecdn.net/attachments/description/1152431/description_0e078480-ad24-4706-998f-64acab261c06.png)
+**![](https://media.forgecdn.net/attachments/description/1312134/description_118555e5-5ac2-4aaf-accb-aeae3ef2ceea.png)**
 
-## **New "Stone" Shotgun recipe**
+## **New "Override" Railgun Recipe**
 
-![](https://media.forgecdn.net/attachments/description/1152431/description_af175836-e08d-403c-b556-471bb7139303.png)
+**![](https://media.forgecdn.net/attachments/description/1312134/description_782b3daa-3aef-4827-ae21-fd021ef26454.png)**
 
-## **New "Bearing" Shotgun recipe**
+## **New "Thrust Reverse" Assault Rifle Recipe**
 
-# ![](https://media.forgecdn.net/attachments/description/1152431/description_73c15fe9-1676-415b-83a1-9a8ec64ad949.png)
+**![](https://media.forgecdn.net/attachments/description/1312134/description_3bba4652-f3cb-46dc-853e-34e12aec169f.png)**
 
-## **New "Crank" SMG recipe**
+## **New "Supressor" Shotgun Recipe**
 
-# ![](https://media.forgecdn.net/attachments/description/1152431/description_27e18b1e-2993-4ed2-8c7a-4ed24b3e4225.png)
+**![](https://media.forgecdn.net/attachments/description/1312134/description_1ce472ed-8435-4e16-99f1-7b63227cf064.png)**
 
-## **New "Flywheel" Machine Gun recipe**
+## **New "Press" Dual Barrel Shotgun Recipe**
 
-# ![](https://media.forgecdn.net/attachments/description/1152431/description_7492801b-094b-47fe-98e1-ea6e69243575.png)
+**![](https://media.forgecdn.net/attachments/description/1312134/description_b1e6d9c3-40e1-46b1-ba48-dd648f51a4ad.png)**
 
-## **New "Atomic Breaker" Melee Weapon recipe**
+## **New "Servo Circuit" Rail SMG Recipe**
 
-![](https://media.forgecdn.net/attachments/description/1152431/description_52ff91f8-5d03-4817-a200-50349df65e5f.png)
+**![](https://media.forgecdn.net/attachments/description/1312134/description_14e19f6f-b9f1-40cb-ac23-1894108bbf6b.png)**
 
-## **New "Wrench" Melee Weapon recipe**
+## **New "Hummingbird" Mini SMG Recipe**
 
-![](https://media.forgecdn.net/attachments/description/1152431/description_83c10937-0f2c-47a6-a78c-3e8a8ef8b83f.png)
+**![](https://media.forgecdn.net/attachments/description/1312134/description_40047fed-972f-4808-8efc-7101bbef5183.png)**
 
-# **New Gun Attachment Recipes!**
+## **New "Purifier" Chemical Thrower Recipe**
 
-A gun isn't complete without a few **attachments**, so more recipes have been added to make them.
+**![](https://media.forgecdn.net/attachments/description/1312134/description_12bfac32-d653-4898-a32f-4c81eeb15482.png)**
 
-![](https://media.forgecdn.net/attachments/description/1152431/description_8f7c5f15-6668-43d2-9d2d-af53cc5b0c14.png)
+## **New "Melter" Plasma Gun Recipe**
 
-![](https://media.forgecdn.net/attachments/description/1152431/description_05f62b62-2cbf-4a2f-9c06-ed5fcd8a3c43.png)
+**![](https://media.forgecdn.net/attachments/description/1312134/description_204859d9-0a52-483f-b300-142bdb5e38fc.png)**
 
-![](https://media.forgecdn.net/attachments/description/1152431/description_deaa98a9-bd11-4140-911f-2c723c8579c0.png)
+## **New "Vulcan" Dual Barrel Cannon Recipe**
 
-![](https://media.forgecdn.net/attachments/description/1152431/description_c4a41a2f-a87f-4e65-bf62-c4fe9c21092b.png)
+**![](https://media.forgecdn.net/attachments/description/1312134/description_f6f00fbc-4ff9-4692-9dad-efa60725fd7e.png)**
 
-![](https://media.forgecdn.net/attachments/description/1152431/description_9461e2d1-523b-4aa3-b466-c091d509b820.png)  
-
-![](https://media.forgecdn.net/attachments/description/1152431/description_a5c6e183-61d7-484b-9b2f-06a085f49258.png)
-
-![](https://media.forgecdn.net/attachments/description/1152431/description_518867cc-7d22-43f7-b162-417928b8a48a.png)
-
-![](https://media.forgecdn.net/attachments/description/1152431/description_e98f9d80-ccf0-4719-8327-e5dfcdd53175.png)
-
-![](https://media.forgecdn.net/attachments/description/1152431/description_c6e654b6-9a8b-45a4-bea6-8acd7d412305.png)
-
-![](https://media.forgecdn.net/attachments/description/1152431/description_3aed786c-354a-4f30-ae06-e85cc30e9f44.png)  
-
-![](https://media.forgecdn.net/attachments/description/1152431/description_2a34660d-25d7-43a5-9737-4709f7c9b1aa.png)
-
-![](https://media.forgecdn.net/attachments/description/1152431/description_579af3cb-4934-4cb5-bb0a-e1be07933d28.png)
-
-![](https://media.forgecdn.net/attachments/description/1152431/description_032ac40d-838f-41ab-ba46-dbf2a82321c3.png)
-
-![](https://media.forgecdn.net/attachments/description/1152431/description_b9f7632e-237f-46ee-825f-067298ed5471.png)
-
-![](https://media.forgecdn.net/attachments/description/1152431/description_3836dacd-6c1c-4c6c-9303-6ebede5a360a.png)
-
-![](https://media.forgecdn.net/attachments/description/1152431/description_8b60fdca-76c0-4d80-b3bf-527a5b8743bd.png)
-
-**New Ammo Casings!**
-=====================
+# **New Ammo Casings!**
 
 The **ammo casings** are made by sawing brass plates. You can put a filter with the casing of your choice using JEI to make it cut the sheets into that type.
 
+![](https://media.forgecdn.net/attachments/description/1312134/description_536d70d5-a54a-46bd-aceb-57d92d434afe.png)
+
+# **New Gun Attachment Recipes!**
+
+A gun isn't complete without a few **attachments**, here's a few examples:
+
+![](https://media.forgecdn.net/attachments/description/1312134/description_ccb1e2a4-c984-450a-9dfb-c30ac7734fdd.png)
+
+![](https://media.forgecdn.net/attachments/description/1312134/description_90a94294-a3e9-4981-9a08-c9b18da1d534.png)
+
  
 
-![](https://media.forgecdn.net/attachments/description/1152431/description_3b40259a-2da4-46f3-bbc5-54365fc5c349.png)
+![](https://media.forgecdn.net/attachments/description/1312134/description_b22d4e46-b118-415b-a6c1-f82aa5f02355.png)
 
-**New Fluids!**
-===============
+![](https://media.forgecdn.net/attachments/description/1312134/description_34c7f6ff-e46d-4c66-945c-51c900ba2f5b.png)
 
-**Gunpowder** can now be stored in tanks as fluids and used in the different recipes. If you have [Create Big Cannons](https://www.curseforge.com/minecraft/mc-mods/create-big-cannons) installed, you can also store **Nitropowder**, which is more efficient than gunpowder at making primers.
+![](https://media.forgecdn.net/attachments/description/1312134/description_6d4ecfbc-5df9-4e77-8dfb-41f353e471d1.png)
 
-![](https://media.forgecdn.net/attachments/description/1152431/description_bf3d69cb-12f3-4976-a02d-aae6558ac1af.png)  ![](https://media.forgecdn.net/attachments/description/1152431/description_09c7285c-e7c8-45de-8bfe-8741c552580f.png)
+![](https://media.forgecdn.net/attachments/description/1312134/description_add67988-b925-44bd-9679-0ad8cda7303b.png)
 
- 
+![](https://media.forgecdn.net/attachments/description/1312134/description_5acb2411-649e-4cd3-881c-d29cd4d52141.png)
 
-**New Ammo Recipes!**
-=====================
+![](https://media.forgecdn.net/attachments/description/1312134/description_219c3922-1a1b-4bab-b7e8-11f20371f45f.png)
 
-To craft the ammo, **primers** are needed. These are made by injecting gunpowder or nitropowder into andesite casings.
+![](https://media.forgecdn.net/attachments/description/1312134/description_05173650-4705-4e35-b18f-af864f660501.png)
 
-![](https://media.forgecdn.net/attachments/description/1152431/description_9bfa81c9-a5df-42b6-8529-75e6c390987f.png)
-
-![](https://media.forgecdn.net/attachments/description/1152431/description_e3120cf5-efc0-4422-ad7d-55e4d655a8f5.png)
-
-Now that you have the primers, you can insert them into the casings and filll them up with gunpowder to craft you ammo type of choice.
-
-![](https://media.forgecdn.net/attachments/description/1152431/description_07bc5695-766a-47bd-8aa8-f7ca6465a4b2.png)
-
-Normally, Create doesn't have a recipe to automate brass, so remember to have the appropriate mining infrastructure when trying to make your new gun factories.
-
-This mod has been primarily made for personal use, but if you have any suggestions about changes that should be made feel free to suggest them!
+If you want more information visit the [Create Immersive Tacz Integration](https://www.curseforge.com/minecraft/mc-mods/create-immersive-tacz-integration) Page.
 
 ***
+
 # FAQ
 
 Q: There's an error when I launch the game.
 
-A: Try updating forge to a newer version.
+A: Try updating forge to a newer verison.
 
 Q: When i use the saw it crafts something else.
 
 A: That means there's another mod with the same recipe. Use a filter in the saw so it only outputs what you need.
-***
-This mod has been primarily made for personal use, but if you have any suggestions about changes that should be made feel free to suggest them!
 
-## Check out my other mods!
-[![image](https://media.forgecdn.net/attachments/description/1264989/description_609b037b-78cb-4497-8b4f-c95c77def773.png)](https://modrinth.com/mod/create-totem-factory)[![](https://media.forgecdn.net/attachments/description/1152431/description_3eebc495-7c50-4bec-9c5b-43b13ec09ac0.png)](https://modrinth.com/mod/create-mechanical-companion)
+This mod has been primarily made for personal use, but if you have any suggestions about changes that should be made feel free to suggest them in the comments!
+
+***
+
+ <h2 style="text-align:left">**Check out my other mods!**</h2>
+
+[![image](https://media.forgecdn.net/attachments/description/1264989/description_609b037b-78cb-4497-8b4f-c95c77def773.png)![](https://media.forgecdn.net/attachments/description/1152431/description_3eebc495-7c50-4bec-9c5b-43b13ec09ac0.png)](https://modrinth.com/mod/create-mechanical-companion)
 
 Want to report bugs, share reviews, suggest features and get updates about the game? Join our official discord channel!
 
-<a href = "https://discord.gg/jWqsA8EPeC"><img src="https://media.forgecdn.net/attachments/description/978675/description_4336ae1a-a280-4da5-8faa-7588ff631da4.png" width="100" height="100"></a>
+<a href="https://discord.gg/jWqsA8EPeC">
+<img src="https://media.forgecdn.net/attachments/description/978675/description_4336ae1a-a280-4da5-8faa-7588ff631da4.png" alt="Discord" width="100"/>
+</a>
 
-If you enjoy this mod and want to support its development, donations are greatly appreciated ❤️
-
-[![Ko-fi Logo](https://cdn.modrinth.com/data/cached_images/efd4f135b5a14adcfde1b1a22c4442888096f952.png)](https://ko-fi.com/marcosjoestar)
+If you enjoy this mod and want to support its development, donations are greatly appreciated ❤️  
+[![](https://media.forgecdn.net/attachments/description/1264989/description_a58064f4-0c7b-475f-b0f8-83767c242bd8.png)](https://ko-fi.com/marcosjoestar)

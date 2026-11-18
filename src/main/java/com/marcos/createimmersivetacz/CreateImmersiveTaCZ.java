@@ -1,7 +1,18 @@
 package com.marcos.createimmersivetacz;
 
+import net.minecraft.ChatFormatting;
+import net.minecraft.client.Minecraft;
+import net.minecraft.commands.CommandSourceStack;
+import net.minecraft.commands.Commands;
+import net.minecraft.network.chat.ClickEvent;
+import net.minecraft.network.chat.Style;
+import net.minecraft.network.chat.TextColor;
+import net.minecraft.server.level.ServerPlayer;
 import net.neoforged.fml.ModList;
 import net.neoforged.fml.loading.FMLPaths;
+import net.neoforged.neoforge.client.event.ClientPlayerNetworkEvent;
+import net.neoforged.neoforge.client.event.RegisterClientCommandsEvent;
+import net.neoforged.neoforge.event.entity.player.PlayerEvent;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -44,6 +55,7 @@ public class CreateImmersiveTaCZ {
 
     public static final String MODID = "createimmersivetacz";
     private static final Logger LOGGER = LogUtils.getLogger();
+    private static boolean createArmorerInstalled = false;
 
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MODID);
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(MODID);
@@ -84,10 +96,17 @@ public class CreateImmersiveTaCZ {
 
         NeoForge.EVENT_BUS.register(this);
 
-        modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
+        modContainer.registerConfig(ModConfig.Type.CLIENT, Config.SPEC);
 
-        if(!hasCreateArmorerInstalled("tacz") && !hasCreateArmorerInstalled("tacz+1.20.1")){
-            LOGGER.error("Create Armorer is not installed, please download it and place it in the /tacz folder");
+
+        createArmorerInstalled =
+                hasCreateArmorerInstalled("tacz")
+                        || hasCreateArmorerInstalled("tacz+1.20.1");
+
+        if (!createArmorerInstalled) {
+            LOGGER.error(
+                    "Create Armorer is not installed; place it in the /tacz folder"
+            );
         }
 
     }
@@ -109,11 +128,54 @@ public class CreateImmersiveTaCZ {
         }
     }
 
+    @SubscribeEvent
+    public void onClientLogin(ClientPlayerNetworkEvent.LoggingIn event) {
+        if (!createArmorerInstalled && !Config.HIDE_NOTIFICATIONS.getAsBoolean()) {
+            event.getPlayer().sendSystemMessage(
+                    Component.translatable("warning.createimmersivetacz.create_armorer_not_installed")
+                            .withColor(0xB5A642)
+                            .append(Component.translatable("warning.createimmersivetacz.create_armorer_not_installed_2")
+                                    .setStyle(Style.EMPTY
+                                            .withColor(TextColor.fromRgb(0xB5A642))
+                                            .withUnderlined(true)
+                                            .withClickEvent(new ClickEvent(
+                                                    ClickEvent.Action.RUN_COMMAND,
+                                                    "/createimmersivetacz disable-warning"))
+                                    )
+                            )
+            );
+
+        }
+    }
+
+
+
+    @SubscribeEvent
+    public void registerClientCommands(RegisterClientCommandsEvent event) {
+        event.getDispatcher().register(
+                Commands.literal("createimmersivetacz").then(Commands.literal("disable-warning")
+                        .executes(context -> {
+                            Config.HIDE_NOTIFICATIONS.set(true);
+
+                            if (Minecraft.getInstance().player != null) {
+                                Minecraft.getInstance().player.displayClientMessage(
+                                        Component.translatable(
+                                                "warning.createimmersivetacz.create_armorer_not_installed_disabled"
+                                        ).withColor(0xB5A642),
+                                        false
+                                );
+                            }
+
+                            return 1;
+                        }))
+        );
+    }
+
+
     private void commonSetup(FMLCommonSetupEvent event) {
 
     }
 
-    // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
     }
